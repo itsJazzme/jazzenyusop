@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #203db2;
+      background-color: #ffffff;
+    }
+
+    header {
+      background-color: #2da1ee;
+      color: white;
+      padding: 20px;
+      text-align: left;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 1.5px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    .menu {
+      width: 20%;
+      background-color: #2da1ee;
+      padding: 10px;
+      height: 20%;
+    }
+
+    .menu a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #203db2; 
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .menu a:hover {
+      background-color: #203db2; 
+      transform: scale(1.05);
+    }
+
+    .main {
+      width: 60%;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main img {
+      max-width: 100%;
+      height: auto;
+      border: 5px solid #203db2;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin: 10px 0;
+    }
+
+    .right {
+      width: 20%;
+      padding: 20px;
+      background-color: #ffffff;
+      color: #203db2;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .right h2 {
+      margin-bottom: 10px;
+      color: #203db2;
+    }
+
+    .right p {
+      margin: 5px 0;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #203db2; /* Teal */
+    }
+
+    @media only screen and (max-width: 768px) {
+      .menu, .main, .right {
+        width: 100%;
+      }
+
+      .menu {
+        text-align: center;
+      }
+    }
+  </style>
+  <!-- Add Google Fonts for Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Jazzen Keithly C. Yusop</h1>
+  </header>
+
+  <div class="container">
+    <div class="menu">
+      <a href="aboutme.html">About Me</a>
+      <a href="subjects.html">Subject Taken</a>
+      <a href="Enrolled.html">Subject Currently Enrolled</a>
+      <a href="contacts.html">Contact Me</a>
+      <a href="favorites.html">My Favorites</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+
+    <div class="main">
+      <h2>About Me</h2>
+      <img src="https://scontent.fcgy1-3.fna.fbcdn.net/v/t1.15752-9/476372941_508454962279916_7763464346630605933_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHXEwfEx3snuutRITO6xsEVUOMuXVcUsp5Q4y5dVxSynr-Ksae90iHPP0OJH6MhwPLHnimtHq1BHoF_RaLPokxR&_nc_ohc=-651TV7PQKMQ7kNvgFJ7BJB&_nc_oc=AdhOd6xpaVfg77glQAtd2uZv00lYDUegEZGyq51ezSKqEVdPlf1vU277uoHbO6dglXn1RhTTZ_OA156FUPW6SV6T&_nc_zt=23&_nc_ht=scontent.fcgy1-3.fna&oh=03_Q7cD1gHCghADRsn4JfFl4-iFm8PGd68BpoycddE81p0vOf73Dw&oe=67D57989" alt="Profile Picture" width="300" height="400">
+    </div>
+
+    <div class="right">
+      <h2>Personal Info</h2>
+      <p>Name: Jazzen Keithly C. Yusop</p>
+      <p>Age: 20 years old</p>
+      <p>Course: BSIT</p>
+      <p>Year: Second Year</p>
+      <p>School: Misamis University</p>
+      <p>Address: Talisay Malaubang, Ozamiz</p>
+      <p>Hobbies: Reading stories(Wattpad), Watching tiktok, Playing games.</p>
+    </div>
+  </div>
+
+  <!-- Add Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
